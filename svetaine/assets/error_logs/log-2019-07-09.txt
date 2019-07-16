@@ -1,0 +1,130 @@
+ERROR - 2019-07-09 00:01:23 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:01:23 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:02:16 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::rows() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 126
+ERROR - 2019-07-09 00:02:49 --> Severity: Notice --> Undefined property: CI_DB_mysqli_result::$Task_description C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 126
+ERROR - 2019-07-09 00:03:11 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 126
+ERROR - 2019-07-09 00:04:13 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::rows() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 126
+ERROR - 2019-07-09 00:04:20 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:08:52 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:09:04 --> Severity: Notice --> Undefined index: tasks.Task_description C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 126
+ERROR - 2019-07-09 00:09:26 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:12:24 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 125
+ERROR - 2019-07-09 00:12:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:12:54 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:14:22 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 125
+ERROR - 2019-07-09 00:15:06 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::rows() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 125
+ERROR - 2019-07-09 00:15:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:15:21 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 125
+ERROR - 2019-07-09 00:15:30 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 125
+ERROR - 2019-07-09 00:18:43 --> Query error: Not unique table/alias: 'tasks' - Invalid query: SELECT `tasks`.`Task_description`
+FROM (`tasks`, `tasks`)
+JOIN `tasks_for_users` ON `tasks`.`Task_id` = `tasks_for_users`.`Task_id`
+WHERE `tasks_for_users`.`User_id` = '1'
+ERROR - 2019-07-09 00:19:40 --> Query error: Not unique table/alias: 'tasks' - Invalid query: SELECT `tasks`.`Task_description`
+FROM (`tasks`, `tasks`)
+JOIN `tasks_for_users` ON `tasks`.`Task_id` = `tasks_for_users`.`Task_id`
+WHERE `tasks_for_users`.`User_id` = '1'
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Undefined property: mysqli::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Undefined property: mysqli_result::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:19:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Undefined property: mysqli::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Undefined property: mysqli_result::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:18 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Undefined property: mysqli::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Undefined property: mysqli_result::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:20:47 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:21:47 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:23:22 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:23:56 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:26:39 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:26:39 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:29:23 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file C:\xampp\htdocs\svetaine\application\views\Homepage.php 36
+ERROR - 2019-07-09 00:30:07 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:30:30 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:30:58 --> Severity: Notice --> Undefined variable: u_key C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:30:58 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 34
+ERROR - 2019-07-09 00:31:56 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:31:56 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 00:34:44 --> Severity: Notice --> Trying to get property 'Task_description' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 10:37:37 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) C:\xampp\htdocs\svetaine\application\controllers\Login.php 64
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'Task_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'User_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'State' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 40
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'Task_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'User_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'State' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 40
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'Task_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'User_id' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 10:39:16 --> Severity: Notice --> Trying to get property 'State' of non-object C:\xampp\htdocs\svetaine\application\views\Homepage.php 40
+ERROR - 2019-07-09 10:51:39 --> Severity: Notice --> Undefined variable: tasks C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-09 10:54:35 --> Severity: Notice --> Undefined variable: datas C:\xampp\htdocs\svetaine\application\views\Homepage.php 37
+ERROR - 2019-07-09 10:54:54 --> Severity: Notice --> Undefined variable: datas C:\xampp\htdocs\svetaine\application\views\Homepage.php 37
+ERROR - 2019-07-09 11:08:01 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 11:08:01 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 11:13:55 --> Severity: Notice --> Undefined property: stdClass::$a C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:13:55 --> Severity: Notice --> Undefined property: stdClass::$a C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:14:19 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:14:19 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:15:04 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:15:04 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:15:06 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:15:06 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:17:28 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:17:28 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:19:13 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:19:13 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:19:42 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:19:42 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:23:48 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:23:48 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:23:48 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:23:48 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:24:10 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:24:10 --> Severity: Notice --> Undefined index: Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:24:10 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:24:10 --> Severity: Notice --> Undefined index: Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:24:22 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:24:22 --> Severity: Notice --> Undefined index: tasks.Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:24:22 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:24:22 --> Severity: Notice --> Undefined index: tasks.Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 42
+ERROR - 2019-07-09 11:24:36 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:24:36 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:25:39 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:25:39 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:25:46 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:25:46 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:26:58 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:26:58 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:27:02 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:27:02 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:32:55 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:32:55 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:34:34 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:34:34 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:35:51 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:35:51 --> Severity: Notice --> Undefined property: stdClass::$Task_description C:\xampp\htdocs\svetaine\application\views\Homepage.php 41
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$Task_id C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$User_id C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$State C:\xampp\htdocs\svetaine\application\views\Homepage.php 40
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$Task_id C:\xampp\htdocs\svetaine\application\views\Homepage.php 38
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$User_id C:\xampp\htdocs\svetaine\application\views\Homepage.php 39
+ERROR - 2019-07-09 11:39:22 --> Severity: Notice --> Undefined property: stdClass::$State C:\xampp\htdocs\svetaine\application\views\Homepage.php 40
+ERROR - 2019-07-09 12:34:19 --> Query error: Unknown column 'Done' in 'field list' - Invalid query: UPDATE `tasks` SET `Done` = ''
+WHERE `tasks`.`Task_id` = '2'
+AND `tasks`.`Task_id` = '1'
+ERROR - 2019-07-09 12:45:49 --> 404 Page Not Found: Tasks/get_back_to_homepage

@@ -1,0 +1,9 @@
+ERROR - 2019-07-10 15:14:36 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'praktika_uzduotis' C:\xampp\htdocs\svetaine\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-07-10 15:14:36 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'praktika_uzduotis' C:\xampp\htdocs\svetaine\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-07-10 15:14:36 --> Unable to connect to the database
+ERROR - 2019-07-10 15:14:36 --> Unable to connect to the database
+ERROR - 2019-07-10 15:15:05 --> 404 Page Not Found: Assets/images
+ERROR - 2019-07-10 15:16:23 --> 404 Page Not Found: Assets/images
+ERROR - 2019-07-10 17:11:10 --> 404 Page Not Found: Assets/images
+ERROR - 2019-07-10 17:15:25 --> 404 Page Not Found: Assets/images
+ERROR - 2019-07-10 17:58:45 --> 404 Page Not Found: Assets/images

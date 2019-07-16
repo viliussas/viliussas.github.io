@@ -1,0 +1,157 @@
+ERROR - 2019-07-08 18:07:10 --> Query error: Table 'website_database.liked_recipes' doesn't exist - Invalid query: SELECT `liked_recipes`.`Recipe_name`, `recipes`.`Recipe_image`, `liked_recipes`.`Recipe_id`
+FROM `liked_recipes`
+JOIN `recipes` ON `liked_recipes`.`Recipe_name` = `recipes`.`Recipe_name`
+WHERE `liked_recipes`.`User_id` IS NULL
+ORDER BY `liked_recipes`.`Recipe_name` ASC
+ERROR - 2019-07-08 18:32:31 --> 404 Page Not Found: Homepage_users/login_user
+ERROR - 2019-07-08 18:35:30 --> Severity: error --> Exception: Unable to locate the model you have specified: Homepage_users_model C:\xampp\htdocs\svetaine\system\core\Loader.php 348
+ERROR - 2019-07-08 18:35:50 --> Severity: error --> Exception: Unable to locate the model you have specified: Homepage_users_model C:\xampp\htdocs\svetaine\system\core\Loader.php 348
+ERROR - 2019-07-08 18:35:51 --> Severity: error --> Exception: Unable to locate the model you have specified: Homepage_users_model C:\xampp\htdocs\svetaine\system\core\Loader.php 348
+ERROR - 2019-07-08 18:35:51 --> Severity: error --> Exception: Unable to locate the model you have specified: Homepage_users_model C:\xampp\htdocs\svetaine\system\core\Loader.php 348
+ERROR - 2019-07-08 18:42:19 --> 404 Page Not Found: Homepage_users/login_user
+ERROR - 2019-07-08 19:15:44 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 19:15:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 19:15:44 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 165
+ERROR - 2019-07-08 19:15:44 --> Severity: Notice --> Undefined variable: users_ingredients C:\xampp\htdocs\svetaine\application\views\Homepage.php 203
+ERROR - 2019-07-08 19:15:44 --> Severity: Notice --> Undefined variable: liked_recipes C:\xampp\htdocs\svetaine\application\views\Homepage.php 230
+ERROR - 2019-07-08 19:16:21 --> 404 Page Not Found: Homepage_users/user_logout
+ERROR - 2019-07-08 19:16:35 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:16:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:16:35 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:19:24 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:19:24 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:19:24 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:19:28 --> 404 Page Not Found: Articles/index
+ERROR - 2019-07-08 19:19:44 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 19:19:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 19:19:44 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 165
+ERROR - 2019-07-08 19:19:44 --> Severity: Notice --> Undefined variable: users_ingredients C:\xampp\htdocs\svetaine\application\views\Homepage.php 203
+ERROR - 2019-07-08 19:19:44 --> Severity: Notice --> Undefined variable: liked_recipes C:\xampp\htdocs\svetaine\application\views\Homepage.php 230
+ERROR - 2019-07-08 19:19:52 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:19:52 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:19:52 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:21:13 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:21:13 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:21:13 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:21:58 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:21:58 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:21:58 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:22:11 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:22:11 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:22:11 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Tasks.php 95
+ERROR - 2019-07-08 19:28:47 --> Severity: error --> Exception: Call to undefined method Tasks_model::count_articles() C:\xampp\htdocs\svetaine\application\controllers\Login.php 37
+ERROR - 2019-07-08 19:28:59 --> Severity: Notice --> Undefined property: Login::$pagination C:\xampp\htdocs\svetaine\application\controllers\Login.php 43
+ERROR - 2019-07-08 19:28:59 --> Severity: error --> Exception: Call to a member function initialize() on null C:\xampp\htdocs\svetaine\application\controllers\Login.php 43
+ERROR - 2019-07-08 19:29:17 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Tasks.php 82
+ERROR - 2019-07-08 19:42:48 --> 404 Page Not Found: Articles/index
+ERROR - 2019-07-08 19:42:51 --> Severity: error --> Exception: Call to undefined method Tasks_model::count_articles() C:\xampp\htdocs\svetaine\application\controllers\Tasks.php 20
+ERROR - 2019-07-08 19:47:03 --> Severity: error --> Exception: Call to undefined method Tasks_model::insert_task_to_db() C:\xampp\htdocs\svetaine\application\controllers\Tasks.php 50
+ERROR - 2019-07-08 19:50:07 --> 404 Page Not Found: Articles/index
+ERROR - 2019-07-08 19:51:04 --> Severity: Notice --> Undefined variable: Article_name C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 24
+ERROR - 2019-07-08 19:51:04 --> Severity: Notice --> Undefined variable: Description C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 28
+ERROR - 2019-07-08 19:51:04 --> Severity: Notice --> Undefined variable: Article_id C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 39
+ERROR - 2019-07-08 19:51:04 --> Severity: Notice --> Undefined variable: Article_image C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 49
+ERROR - 2019-07-08 19:51:04 --> Severity: Notice --> Undefined variable: Article_image C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 50
+ERROR - 2019-07-08 19:52:57 --> Severity: Warning --> extract() expects parameter 1 to be array, null given C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 15
+ERROR - 2019-07-08 19:52:57 --> Severity: Notice --> Undefined variable: Task_description C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 22
+ERROR - 2019-07-08 19:52:57 --> Severity: Notice --> Undefined variable: Task_id C:\xampp\htdocs\svetaine\application\views\edit_tasks.php 27
+ERROR - 2019-07-08 19:54:19 --> Severity: Notice --> Undefined property: Tasks::$Articles_model C:\xampp\htdocs\svetaine\application\controllers\Tasks.php 72
+ERROR - 2019-07-08 19:54:19 --> Severity: error --> Exception: Call to a member function delete_a_task() on null C:\xampp\htdocs\svetaine\application\controllers\Tasks.php 72
+ERROR - 2019-07-08 20:12:15 --> 404 Page Not Found: Tasks/assign_task
+ERROR - 2019-07-08 20:28:51 --> 404 Page Not Found: Tasks/assign_task
+ERROR - 2019-07-08 21:23:20 --> 404 Page Not Found: Tasks/assign_task_db
+ERROR - 2019-07-08 21:26:06 --> Severity: error --> Exception: syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$' C:\xampp\htdocs\svetaine\application\controllers\Tasks.php 80
+ERROR - 2019-07-08 21:35:45 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 77
+ERROR - 2019-07-08 21:37:48 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 77
+ERROR - 2019-07-08 21:37:51 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_driver::result() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 77
+ERROR - 2019-07-08 21:39:09 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:39:09 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:39:09 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `tasks_for_users` (`Task_id`, `User_id`, `State`) VALUES (Array, Array, 'In progress')
+ERROR - 2019-07-08 21:41:36 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:41:36 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:41:36 --> Query error: Unknown column 'Array' in 'field list' - Invalid query: INSERT INTO `tasks_for_users` (`Task_id`, `User_id`, `State`) VALUES (Array, Array, 'In progress')
+ERROR - 2019-07-08 21:43:00 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:43:00 --> Severity: 4096 --> Object of class stdClass could not be converted to string C:\xampp\htdocs\svetaine\system\database\DB_driver.php 1477
+ERROR - 2019-07-08 21:43:00 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' , 'In progress')' at line 1 - Invalid query: INSERT INTO `tasks_for_users` (`Task_id`, `User_id`, `State`) VALUES (, , 'In progress')
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined index: First_name C:\xampp\htdocs\svetaine\application\controllers\Login.php 28
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined index: Last_name C:\xampp\htdocs\svetaine\application\controllers\Login.php 29
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:07:20 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 165
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined variable: users_ingredients C:\xampp\htdocs\svetaine\application\views\Homepage.php 203
+ERROR - 2019-07-08 22:07:20 --> Severity: Notice --> Undefined variable: liked_recipes C:\xampp\htdocs\svetaine\application\views\Homepage.php 230
+ERROR - 2019-07-08 22:07:25 --> 404 Page Not Found: Homepage_users/user_logout
+ERROR - 2019-07-08 22:07:36 --> Severity: Notice --> Undefined index: First_name C:\xampp\htdocs\svetaine\application\controllers\Login.php 28
+ERROR - 2019-07-08 22:07:36 --> Severity: Notice --> Undefined index: Last_name C:\xampp\htdocs\svetaine\application\controllers\Login.php 29
+ERROR - 2019-07-08 22:10:22 --> 404 Page Not Found: Loginphp/index
+ERROR - 2019-07-08 22:10:55 --> 404 Page Not Found: Loginphp/index
+ERROR - 2019-07-08 22:11:05 --> 404 Page Not Found: Loginphp/index
+ERROR - 2019-07-08 22:47:33 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:47:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:47:33 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 165
+ERROR - 2019-07-08 22:47:33 --> Severity: Notice --> Undefined variable: users_ingredients C:\xampp\htdocs\svetaine\application\views\Homepage.php 203
+ERROR - 2019-07-08 22:47:33 --> Severity: Notice --> Undefined variable: liked_recipes C:\xampp\htdocs\svetaine\application\views\Homepage.php 230
+ERROR - 2019-07-08 22:52:33 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:52:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 151
+ERROR - 2019-07-08 22:52:33 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 165
+ERROR - 2019-07-08 22:53:20 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:53:20 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:53:20 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 152
+ERROR - 2019-07-08 22:54:08 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 139
+ERROR - 2019-07-08 22:54:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 139
+ERROR - 2019-07-08 22:54:08 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 153
+ERROR - 2019-07-08 22:54:22 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 139
+ERROR - 2019-07-08 22:54:22 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 139
+ERROR - 2019-07-08 22:54:22 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 153
+ERROR - 2019-07-08 22:54:34 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:54:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:54:34 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 152
+ERROR - 2019-07-08 22:55:04 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:55:04 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:55:04 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 152
+ERROR - 2019-07-08 22:55:34 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:55:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 138
+ERROR - 2019-07-08 22:55:34 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 152
+ERROR - 2019-07-08 22:56:35 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 88
+ERROR - 2019-07-08 22:56:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 88
+ERROR - 2019-07-08 22:56:35 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 102
+ERROR - 2019-07-08 22:56:44 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 88
+ERROR - 2019-07-08 22:56:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 88
+ERROR - 2019-07-08 22:56:44 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 102
+ERROR - 2019-07-08 22:57:08 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 83
+ERROR - 2019-07-08 22:57:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 83
+ERROR - 2019-07-08 22:57:08 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 97
+ERROR - 2019-07-08 22:58:16 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:58:16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:58:16 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 46
+ERROR - 2019-07-08 22:58:45 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:58:45 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:58:45 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 46
+ERROR - 2019-07-08 22:59:06 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:06 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 46
+ERROR - 2019-07-08 22:59:39 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:39 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 46
+ERROR - 2019-07-08 22:59:50 --> Severity: Notice --> Undefined variable: article_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:50 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 22:59:50 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 46
+ERROR - 2019-07-08 23:03:15 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 23:03:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 23:03:15 --> Severity: Notice --> Undefined variable: links C:\xampp\htdocs\svetaine\application\views\Homepage.php 43
+ERROR - 2019-07-08 23:03:41 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 23:03:41 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\views\Homepage.php 32
+ERROR - 2019-07-08 23:04:28 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:06:30 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:06:38 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:07:45 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:08:42 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:10:17 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:10:29 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:10:55 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:11:50 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:34:31 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:34:39 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:34:44 --> Severity: Notice --> Undefined variable: tasks_list C:\xampp\htdocs\svetaine\application\views\Homepage.php 33
+ERROR - 2019-07-08 23:57:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 127
+ERROR - 2019-07-08 23:57:15 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\svetaine\application\models\Tasks_model.php 130
